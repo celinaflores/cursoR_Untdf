@@ -1,0 +1,8 @@
+box: rocker/hadleyverse
+build:
+  steps:
+  - script:
+    name: build
+    code: |
+      chmod +x _build.sh
+      ./_build.sh
